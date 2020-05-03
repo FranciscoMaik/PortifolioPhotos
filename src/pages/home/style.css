@@ -1,0 +1,55 @@
+.content {
+  height: 85vh;
+  width: 100vw;
+  min-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../fundo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+h1 {
+  font-weight: 400;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: 250px;
+}
+
+button {
+  background-color: #ffc28ccc;
+  font-family: "Lemonada";
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 41px;
+  width: 421px;
+  height: 89px;
+  border-radius: 18px;
+  color: #ffffff;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 15vh;
+  font-weight: 400;
+  line-height: 60px;
+  background-color: #ffc28c;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-between;
+}
